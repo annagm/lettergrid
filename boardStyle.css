@@ -1,0 +1,59 @@
+#board {
+display: none;
+grid-gap: 15px;
+grid-template-columns: auto auto auto auto;
+margin: auto;
+width: 60%;
+padding:20px;
+}
+
+#instruction {
+  font-family: "Arial";
+}
+
+#eggTimer {
+ margin: auto;
+ height: 30px;
+ position: relative;
+ background-color: #ddd;
+}
+
+#sand {
+ background: #4CAF50;
+ width: 100%;
+ height: 30px;
+ position: absolute;
+}
+
+.grid-item {
+  font-family: "Arial";
+  background-color: rgba(63,63,191,.7);
+  color:white;
+  font-size: 3.5em;
+  text-align: center;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px rgba(5, 5, 5, 0.5);
+  padding: 10px;
+  width: 75%;
+
+}
+
+.container {
+  border: 2px;
+  background-color: rgba(100,100,100,.5);
+  padding: 25px;
+  width: 60%;
+  margin: auto;
+
+}
+
+#menu {
+  position: relative;
+  left: 20%;
+  padding: 10px;
+}
+
+button {
+  font-family: "Arial";
+  padding: 5px;
+}
