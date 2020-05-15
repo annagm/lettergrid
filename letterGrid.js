@@ -31,7 +31,6 @@ function rotateBoard(grid) {
 
 for(i=0; i<grid.length; i++) {
   var r = Math.floor(Math.random() * 9);
-  console.log(r);
 var rotation = "rotate(0deg)";
   if (r == 9) {
     rotation = "rotate(270deg)";
